@@ -323,8 +323,9 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   display: -ms-flexbox;
   display: flex;
   align-items: center;
-  height: 65%;
+  height: 95%;
   margin-right: 55px;
+  border: radius 10px;
 }
 
 .logo img {
@@ -368,8 +369,8 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 .main-menu > li > a {
   font-family: Poppins-Medium;
-  font-size: 14px;
-  color: #333;
+  font-size: 18px;
+  color: lightgray;
   padding: 5px 0px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -737,7 +738,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 .main-menu-m > li > a {
   font-family: Poppins-Medium;
-  font-size: 14px;
+  font-size: 17px;
   color: white;
   line-height: 2.8;
   padding: 8px 20px 8px 20px;
@@ -749,8 +750,8 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .arrow-main-menu-m {
-  font-size: 14px;
-  color: #fff;
+  font-size: 18px;
+  color: rgb(85, 83, 83);
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -2124,7 +2125,7 @@ input.num-product::-webkit-inner-spin-button {
 ==================================================================*/
 .cl0 {color: #fff;}
 .cl1 {color: #717fe0;}
-.cl2 {color: #333;}
+.cl2 {color: black;}
 .cl3 {color: #666;}
 .cl4 {color: #999;}
 .cl5 {color: #222;}
