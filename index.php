@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Home</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.png" />
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/linearicons-v1.0.0/icon-font.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->	
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->	
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/MagnificPopup/magnific-popup.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 </head>
+
 <body class="animsition">
-	
+
 	<!-- Header -->
 	<header>
 		<!-- Header desktop -->
@@ -45,10 +47,10 @@
 			<div class="top-bar">
 				<div class="content-topbar flex-sb-m h-full container">
 					<div class="left-top-bar">
-						Free shipping for standard order over $100
+						Envio gratis por compras mayores $200.000
 					</div>
 
-					<div class="right-top-bar flex-w h-full">
+					<!-- <div class="right-top-bar flex-w h-full">
 						<a href="#" class="flex-c-m trans-04 p-lr-25">
 							Help & FAQs
 						</a>
@@ -64,14 +66,14 @@
 						<a href="#" class="flex-c-m trans-04 p-lr-25">
 							USD
 						</a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 
 			<div class="wrap-menu-desktop">
 				<nav class="limiter-menu-desktop container">
-					
-					<!-- Logo desktop -->		
+
+					<!-- Logo desktop -->
 					<a href="#" class="logo">
 						<img src="images/icons/logoDanjual.png" alt="IMG-LOGO">
 					</a>
@@ -87,9 +89,9 @@
 							<li>
 								<a href="product.html">Categorias</a>
 								<ul class="sub-menu">
-									<li><a href="index.php">Hombres</a></li>
-									<li><a href="home-02.html">Mujeres</a></li>
-									<li><a href="home-03.html">Niños</a></li>
+									<li><a href="productosHombres.php">Hombres</a></li>
+									<li><a href="productosMujeres.php">Mujeres</a></li>
+									<li><a href="productosNinos.php">Niños</a></li>
 								</ul>
 							</li>
 
@@ -98,34 +100,34 @@
 								<ul class="sub-menu">
 									<li><a href="index.php">Daniela Arias</a></li>
 									<li><a href="home-02.html">Juan Eduardo Gonzales</a></li>
-									<li><a href="home-03.html">Alejandro Garay</a></li>
+									<li><a href="#" id="Alejo">Alejandro Garay</a></li>
 								</ul>
 							</li>
 
 						</ul>
-					</div>	
+					</div>
 
 					<!-- Icon header -->
 					<div class="wrap-icon-header flex-w flex-r-m">
-						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
+						<div class="icon-header-item cl4 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
 							<i class="zmdi zmdi-search"></i>
 						</div>
 
-						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="2">
+						<div class="icon-header-item cl4 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="2">
 							<i class="zmdi zmdi-shopping-cart"></i>
 						</div>
 
-						<a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
+						<a href="#" class="dis-block icon-header-item cl4 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
 							<i class="zmdi zmdi-favorite-outline"></i>
 						</a>
 					</div>
 				</nav>
-			</div>	
+			</div>
 		</div>
 
 		<!-- Header Mobile -->
 		<div class="wrap-header-mobile">
-			<!-- Logo moblie -->		
+			<!-- Logo moblie -->
 			<div class="logo-mobile">
 				<a href="index.php"><img src="images/icons/logoDanjual2.png" alt="IMG-LOGO"></a>
 			</div>
@@ -189,12 +191,12 @@
 
 				<li>
 					<a href="about.html">Sobre Nosotros</a>
-					</ul>
-				</li>
+			</ul>
+			</li>
 
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
+			<li>
+				<a href="contact.html">Contact</a>
+			</li>
 			</ul>
 		</div>
 
@@ -216,7 +218,7 @@
 	</header>
 
 	<!-- Cart -->
-	<div class="wrap-header-cart js-panel-cart">
+	<!-- <div class="wrap-header-cart js-panel-cart">
 		<div class="s-full js-hide-cart"></div>
 
 		<div class="header-cart flex-col-l p-l-65 p-r-25">
@@ -298,9 +300,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
-		
+
 
 	<!-- Slider -->
 	<section class="section-slide">
@@ -314,13 +316,13 @@
 									Ropa y elementos deportivos
 								</span>
 							</div>
-								
+
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInUp" data-delay="800">
 								<h2 class="ltext-201 cl4 p-t-19 p-b-43 respon1">
 									HOMBRES
 								</h2>
 							</div>
-								
+
 							<div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600">
 								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
 									Click Aqui
@@ -338,13 +340,13 @@
 									Ropa y elementos deportivos
 								</span>
 							</div>
-								
+
 							<div class="layer-slick1 animated visible-false" data-appear="lightSpeedIn" data-delay="800">
 								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
 									MUJERES
 								</h2>
 							</div>
-								
+
 							<div class="layer-slick1 animated visible-false" data-appear="slideInUp" data-delay="1600">
 								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
 									Click Aqui
@@ -362,13 +364,13 @@
 									Nueva colección escolar
 								</span>
 							</div>
-								
+
 							<div class="layer-slick1 animated visible-false" data-appear="rotateInUpRight" data-delay="800">
 								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
 									NIÑOS Y NIÑAS
 								</h2>
 							</div>
-								
+
 							<div class="layer-slick1 animated visible-false" data-appear="rotateIn" data-delay="1600">
 								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
 									Click Aqui
@@ -474,6 +476,8 @@
 				</h3>
 			</div>
 
+
+			<!-- Filtro de productos -->
 			<div class="flex-w flex-sb-m p-b-52">
 				<div class="flex-w flex-l-m filter-tope-group m-tb-10">
 					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
@@ -511,7 +515,7 @@
 						Search
 					</div>
 				</div>
-				
+
 				<!-- Search product -->
 				<div class="dis-none panel-search w-full p-t-10 p-b-15">
 					<div class="bor8 dis-flex p-l-15">
@@ -520,7 +524,7 @@
 						</button>
 
 						<input class="mtext-107 cl2 size-114 plh2 p-r-15" type="text" name="search-product" placeholder="Search">
-					</div>	
+					</div>
 				</div>
 
 				<!-- Filter -->
@@ -716,6 +720,7 @@
 			<div class="row isotope-grid">
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item basket">
 					<!-- Block2 -->
+					<!-- producto 1 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-01.jpg" alt="IMG-PRODUCT">
@@ -746,13 +751,15 @@
 					</div>
 				</div>
 
+				<!-- producto 2 -->
+
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item basket">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-02.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal2">
 								Quick View
 							</a>
 						</div>
@@ -888,7 +895,7 @@
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-									Balon de Soccer Pretty 
+									Balon de Soccer Pretty
 								</a>
 
 								<span class="stext-105 cl3">
@@ -952,7 +959,7 @@
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-								 Medias deportivas para soccer blancas
+									Medias deportivas para soccer blancas
 								</a>
 
 								<span class="stext-105 cl3">
@@ -1048,7 +1055,7 @@
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-									Rodilleras de volleyball 
+									Rodilleras de volleyball
 								</a>
 
 								<span class="stext-105 cl3">
@@ -1343,7 +1350,9 @@
 
 				<p class="stext-107 cl6 txt-center">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> &amp; distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+					Copyright &copy;<script>
+						document.write(new Date().getFullYear());
+					</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> &amp; distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 
 				</p>
@@ -1410,7 +1419,7 @@
 							</div>
 						</div>
 					</div>
-					
+
 					<div class="col-md-6 col-lg-5 p-b-30">
 						<div class="p-r-50 p-t-5 p-lr-0-lg">
 							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
@@ -1424,51 +1433,52 @@
 							<p class="stext-102 cl3 p-t-23">
 								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
 							</p>
-							
+
 							<!--  -->
 							<div class="p-t-33">
 								<div class="flex-w flex-r-m p-b-10">
-									
-								<div class="flex-w flex-r-m p-b-10">
-									<div class="size-204 flex-w flex-m respon6-next">
-										<div class="wrap-num-product flex-w m-r-20 m-tb-10">
-											<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
-												<i class="fs-16 zmdi zmdi-minus"></i>
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
 											</div>
 
-											<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
-
-											<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
-												<i class="fs-16 zmdi zmdi-plus"></i>
-											</div>
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
 										</div>
-
-										<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
-											Add to cart
-										</button>
 									</div>
-								</div>	
-							</div>
-
-							<!--  -->
-							<div class="flex-w flex-m p-l-100 p-t-40 respon7">
-								<div class="flex-m bor9 p-r-10 m-r-11">
-									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
-										<i class="zmdi zmdi-favorite"></i>
-									</a>
 								</div>
 
-								<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
-									<i class="fa fa-facebook"></i>
-								</a>
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
 
-								<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
-									<i class="fa fa-twitter"></i>
-								</a>
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
 
-								<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
-									<i class="fa fa-google-plus"></i>
-								</a>
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -1477,227 +1487,111 @@
 		</div>
 	</div>
 
-	<!-- Modal2 -->
-	<div class="wrap-modal2 js-modal2 p-t-60 p-b-20">
-	<div class="overlay-modal2 js-hide-modal2"></div>
 
-		<div class="container">
-			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
-				<button class="how-pos3 hov3 trans-04 js-hide-modal2">
-					<img src="images/icons/icon-close.png" alt="CLOSE">
-				</button>
 
-				<div class="row">
-					<div class="col-md-6 col-lg-7 p-b-30">
-						<div class="p-l-25 p-r-30 p-lr-0-lg">
-							<div class="wrap-slick3 flex-sb flex-w">
-								<div class="wrap-slick3-dots"></div>
-								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
 
-								<div class="slick3 gallery-lb">
-									<div class="item-slick3" data-thumb="images/product-02.jpg">
-										<div class="wrap-pic-w pos-relative">
-											<img src="images/product-02.jpg" alt="IMG-PRODUCT">
 
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-detail-01.jpg">
-												<i class="fa fa-expand"></i>
-											</a>
-										</div>
-									</div>
+			<!--===============================================================================================-->
+			<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+			<!--===============================================================================================-->
+			<script src="vendor/animsition/js/animsition.min.js"></script>
+			<!--===============================================================================================-->
+			<script src="vendor/bootstrap/js/popper.js"></script>
+			<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+			<!--===============================================================================================-->
+			<script src="vendor/select2/select2.min.js"></script>
+			<script>
+				$(".js-select2").each(function() {
+					$(this).select2({
+						minimumResultsForSearch: 20,
+						dropdownParent: $(this).next('.dropDownSelect2')
+					});
+				})
+			</script>
+			<!--===============================================================================================-->
+			<script src="vendor/daterangepicker/moment.min.js"></script>
+			<script src="vendor/daterangepicker/daterangepicker.js"></script>
+			<!--===============================================================================================-->
+			<script src="vendor/slick/slick.min.js"></script>
+			<script src="js/slick-custom.js"></script>
+			<!--===============================================================================================-->
+			<script src="vendor/parallax100/parallax100.js"></script>
+			<script>
+				$('.parallax100').parallax100();
+			</script>
+			<!--===============================================================================================-->
+			<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+			<script>
+				$('.gallery-lb').each(function() { // the containers for all your galleries
+					$(this).magnificPopup({
+						delegate: 'a', // the selector for gallery item
+						type: 'image',
+						gallery: {
+							enabled: true
+						},
+						mainClass: 'mfp-fade'
+					});
+				});
+			</script>
+			<!--===============================================================================================-->
+			<script src="vendor/isotope/isotope.pkgd.min.js"></script>
+			<!--===============================================================================================-->
+			<script src="vendor/sweetalert/sweetalert.min.js"></script>
+			<script>
+				$('.js-addwish-b2').on('click', function(e) {
+					e.preventDefault();
+				});
 
-									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
-										<div class="wrap-pic-w pos-relative">
-											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+				$('.js-addwish-b2').each(function() {
+					var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+					$(this).on('click', function() {
+						swal(nameProduct, "is added to wishlist !", "success");
 
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
-												<i class="fa fa-expand"></i>
-											</a>
-										</div>
-									</div> -->
+						$(this).addClass('js-addedwish-b2');
+						$(this).off('click');
+					});
+				});
 
-									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
-										<div class="wrap-pic-w pos-relative">
-											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+				$('.js-addwish-detail').each(function() {
+					var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
 
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
-												<i class="fa fa-expand"></i>
-											</a>
-										</div>
-									</div> -->
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-6 col-lg-5 p-b-30">
-						<div class="p-r-50 p-t-5 p-lr-0-lg">
-							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
-								Pelota de Basket Basica Meh
-							</h4>
+					$(this).on('click', function() {
+						swal(nameProduct, "is added to wishlist !", "success");
 
-							<span class="mtext-106 cl2">
-								$20.00
-							</span>
+						$(this).addClass('js-addedwish-detail');
+						$(this).off('click');
+					});
+				});
 
-							<p class="stext-102 cl3 p-t-23">
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
-							</p>
-							
-							<!--  -->
-							<div class="p-t-33">
-								<div class="flex-w flex-r-m p-b-10">
-									
-								<div class="flex-w flex-r-m p-b-10">
-									<div class="size-204 flex-w flex-m respon6-next">
-										<div class="wrap-num-product flex-w m-r-20 m-tb-10">
-											<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
-												<i class="fs-16 zmdi zmdi-minus"></i>
-											</div>
+				/*---------------------------------------------*/
 
-											<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+				$('.js-addcart-detail').each(function() {
+					var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+					$(this).on('click', function() {
+						swal(nameProduct, "is added to cart !", "success");
+					});
+				});
+			</script>
+			<!--===============================================================================================-->
+			<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+			<script>
+				$('.js-pscroll').each(function() {
+					$(this).css('position', 'relative');
+					$(this).css('overflow', 'hidden');
+					var ps = new PerfectScrollbar(this, {
+						wheelSpeed: 1,
+						scrollingThreshold: 1000,
+						wheelPropagation: false,
+					});
 
-											<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
-												<i class="fs-16 zmdi zmdi-plus"></i>
-											</div>
-										</div>
-
-										<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
-											Add to cart
-										</button>
-									</div>
-								</div>	
-							</div>
-
-							<!--  -->
-							<div class="flex-w flex-m p-l-100 p-t-40 respon7">
-								<div class="flex-m bor9 p-r-10 m-r-11">
-									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
-										<i class="zmdi zmdi-favorite"></i>
-									</a>
-								</div>
-
-								<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
-									<i class="fa fa-facebook"></i>
-								</a>
-
-								<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
-									<i class="fa fa-twitter"></i>
-								</a>
-
-								<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
-									<i class="fa fa-google-plus"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	
-
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-	<script>
-		$(".js-select2").each(function(){
-			$(this).select2({
-				minimumResultsForSearch: 20,
-				dropdownParent: $(this).next('.dropDownSelect2')
-			});
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/slick/slick.min.js"></script>
-	<script src="js/slick-custom.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/parallax100/parallax100.js"></script>
-	<script>
-        $('.parallax100').parallax100();
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
-	<script>
-		$('.gallery-lb').each(function() { // the containers for all your galleries
-			$(this).magnificPopup({
-		        delegate: 'a', // the selector for gallery item
-		        type: 'image',
-		        gallery: {
-		        	enabled:true
-		        },
-		        mainClass: 'mfp-fade'
-		    });
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/isotope/isotope.pkgd.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/sweetalert/sweetalert.min.js"></script>
-	<script>
-		$('.js-addwish-b2').on('click', function(e){
-			e.preventDefault();
-		});
-
-		$('.js-addwish-b2').each(function(){
-			var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
-			$(this).on('click', function(){
-				swal(nameProduct, "is added to wishlist !", "success");
-
-				$(this).addClass('js-addedwish-b2');
-				$(this).off('click');
-			});
-		});
-
-		$('.js-addwish-detail').each(function(){
-			var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
-
-			$(this).on('click', function(){
-				swal(nameProduct, "is added to wishlist !", "success");
-
-				$(this).addClass('js-addedwish-detail');
-				$(this).off('click');
-			});
-		});
-
-		/*---------------------------------------------*/
-
-		$('.js-addcart-detail').each(function(){
-			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
-			$(this).on('click', function(){
-				swal(nameProduct, "is added to cart !", "success");
-			});
-		});
-	
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-	<script>
-		$('.js-pscroll').each(function(){
-			$(this).css('position','relative');
-			$(this).css('overflow','hidden');
-			var ps = new PerfectScrollbar(this, {
-				wheelSpeed: 1,
-				scrollingThreshold: 1000,
-				wheelPropagation: false,
-			});
-
-			$(window).on('resize', function(){
-				ps.update();
-			})
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+					$(window).on('resize', function() {
+						ps.update();
+					})
+				});
+			</script>
+			<!--===============================================================================================-->
+			<script src="js/main.js"></script>
 
 </body>
+
 </html>
