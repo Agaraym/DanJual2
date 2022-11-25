@@ -287,8 +287,186 @@
         $('.js-modal2').removeClass('show-modal2');
     });
 
+    /* [ Show modal3 ]*/
+    $('.js-show-modal3').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal3').addClass('show-modal3');
+    });
+
+    $('.js-hide-modal3').on('click',function(){
+        $('.js-modal3').removeClass('show-modal3');
+    });
+
+    /* [ Show modal4 ]*/
+    $('.js-show-modal4').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal4').addClass('show-modal4');
+    });
+
+    $('.js-hide-modal4').on('click',function(){
+        $('.js-modal4').removeClass('show-modal4');
+    });
+
+      /* [ Show modal5 ]*/
+    $('.js-show-modal5').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal5').addClass('show-modal5');
+    });
+
+    $('.js-hide-modal5').on('click',function(){
+        $('.js-modal5').removeClass('show-modal5');
+    });
+
+      /* [ Show modal6 ]*/
+    $('.js-show-modal6').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal6').addClass('show-modal6');
+    });
+
+    $('.js-hide-modal6').on('click',function(){
+        $('.js-modal6').removeClass('show-modal6');
+    });
+
+      /* [ Show modal7 ]*/
+    $('.js-show-modal7').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal7').addClass('show-modal7');
+    });
+
+    $('.js-hide-modal7').on('click',function(){
+        $('.js-modal7').removeClass('show-modal7');
+    });
+
+    /* [ Show modal8 ]*/
+    $('.js-show-modal8').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal8').addClass('show-modal8');
+    });
+
+    $('.js-hide-modal8').on('click',function(){
+        $('.js-modal8').removeClass('show-modal8');
+    });
+
+   /* [ Show modal9 ]*/
+   $('.js-show-modal9').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal9').addClass('show-modal9');
+    });
+
+    $('.js-hide-modal9').on('click',function(){
+        $('.js-modal9').removeClass('show-modal9');
+    });
+
+      /* [ Show modal10 ]*/
+   $('.js-show-modal10').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal10').addClass('show-modal10');
+    });
+
+    $('.js-hide-modal10').on('click',function(){
+        $('.js-modal10').removeClass('show-modal10');
+    });
+
+      /* [ Show modal11 ]*/
+   $('.js-show-modal11').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal11').addClass('show-modal11');
+    });
+
+    $('.js-hide-modal11').on('click',function(){
+        $('.js-modal11').removeClass('show-modal11');
+    });
+
+      /* [ Show modal12 ]*/
+   $('.js-show-modal12').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal12').addClass('show-modal12');
+    });
+
+    $('.js-hide-modal12').on('click',function(){
+        $('.js-modal12').removeClass('show-modal12');
+    });
+
+      /* [ Show modal12 ]*/
+   $('.js-show-modal12').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal12').addClass('show-modal12');
+    });
+
+    $('.js-hide-modal12').on('click',function(){
+        $('.js-modal12').removeClass('show-modal12');
+    });
+
+      /* [ Show modal13 ]*/
+   $('.js-show-modal13').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal13').addClass('show-modal13');
+    });
+
+    $('.js-hide-modal13').on('click',function(){
+        $('.js-modal13').removeClass('show-modal13');
+    });
+
+      /* [ Show modal14 ]*/
+   $('.js-show-modal14').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal14').addClass('show-modal14');
+    });
+
+    $('.js-hide-modal14').on('click',function(){
+        $('.js-modal14').removeClass('show-modal14');
+    });
+
+      /* [ Show modal15 ]*/
+   $('.js-show-modal15').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal15').addClass('show-modal15');
+    });
+
+    $('.js-hide-modal15').on('click',function(){
+        $('.js-modal15').removeClass('show-modal15');
+    });
+
+    /* [ Show modal16 ]*/
+   $('.js-show-modal16').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal16').addClass('show-modal16');
+    });
+
+    $('.js-hide-modal16').on('click',function(){
+        $('.js-modal16').removeClass('show-modal16');
+    });
+
     /*//////////////////////////////////////////////////////////////////*/
     /*MODALES PROPIOS */
+    $('.js-show-modalDani').on('click',function(e){
+        e.preventDefault();
+        $('.js-modalDani').addClass('show-modalDani');
+    });
+    
+    $('.js-hide-modalDani').on('click',function(){
+        $('.js-modalDani').removeClass('show-modalDani');
+    });
+
+    $('.js-show-modalJuan').on('click',function(e){
+        e.preventDefault();
+        $('.js-modalJuan').addClass('show-modalJuan');
+    });
+    
+    $('.js-hide-modalJuan').on('click',function(){
+        $('.js-modalJuan').removeClass('show-modalJuan');
+    });
+
+    $('.js-show-modalAlejo').on('click',function(e){
+        e.preventDefault();
+        $('.js-modalAlejo').addClass('show-modalAlejo');
+    });
+    
+    $('.js-hide-modalAlejo').on('click',function(){
+        $('.js-modalAlejo').removeClass('show-modalAlejo');
+    });
+
+
     // Get the modal
   
     //var modal = document.getElementById("Alejo");

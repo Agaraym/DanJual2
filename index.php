@@ -96,12 +96,15 @@
 							</li>
 
 							<li>
-								<a href="about.html">Sobre nosotros</a>
+								<a href="#">Sobre nosotros</a>
 								<ul class="sub-menu">
-									<li><a href="index.php">Daniela Arias</a></li>
-									<li><a href="home-02.html">Juan Eduardo Gonzales</a></li>
-									<li><a href="#" id="Alejo">Alejandro Garay</a></li>
+									<li><a href="#" class="js-show-modalDani">Daniela Arias</a></li>
+									<li><a href="#" class="js-show-modalJuan">Juan Eduardo Gonzales</a></li>
+									<li><a href="#" class="js-show-modalAlejo">Alejandro Garay</a></li>
 								</ul>
+							</li>
+							<li>
+								<a href="bd_tienda/Login.php" target="_blank">Login</a>
 							</li>
 
 						</ul>
@@ -113,7 +116,7 @@
 							<i class="zmdi zmdi-search"></i>
 						</div>
 
-						<div class="icon-header-item cl4 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="2">
+						<div class="icon-header-item cl4 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="0">
 							<i class="zmdi zmdi-shopping-cart"></i>
 						</div>
 
@@ -198,21 +201,21 @@
 				</li>
 
 				<li>
-					<a href="about.html">Sobre Nosotros</a>
+					<a href="#">Sobre Nosotros</a>
 					<ul class="sub-menu-m">
-						<li><a href="#">Daniela Arias</a></li>
-						<li><a href="#">Juan Eduardo Gonzales</a></li>
-						<li><a href="#" id="Alejo">Alejandro Garay</a></li>
+						<li><a href="#" class="js-show-modalDani">Daniela Arias</a></li>
+						<li><a href="#" class="js-show-modalJuan">Juan Eduardo Gonzales</a></li>
+						<li><a href="#" class="js-show-modalAlejo">Alejandro Garay</a></li>
 					</ul>
 					<span class="arrow-main-menu-m">
 						<i class="fa fa-angle-right" aria-hidden="true"></i>
 					</span>
-		 		</li>
-				 <li>
-					<a href="login.php">Login</a>
+				</li>
+				<li>
+					<a href="bd_tienda/Login.php" target="_blank">Login</a>
 				</li>
 
-			
+
 			</ul>
 		</div>
 
@@ -340,7 +343,7 @@
 							</div>
 
 							<div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600">
-								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+								<a href="ProductosHombres.php" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
 									Click Aqui
 								</a>
 							</div>
@@ -364,7 +367,7 @@
 							</div>
 
 							<div class="layer-slick1 animated visible-false" data-appear="slideInUp" data-delay="1600">
-								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+								<a href="ProductosMujeres.php" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
 									Click Aqui
 								</a>
 							</div>
@@ -388,7 +391,7 @@
 							</div>
 
 							<div class="layer-slick1 animated visible-false" data-appear="rotateIn" data-delay="1600">
-								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+								<a href="ProductosNinos.php" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
 									Click Aqui
 								</a>
 							</div>
@@ -483,7 +486,7 @@
 	</div>
 
 
-	<!-- Product -->
+	<!-- Productos -->
 	<section class="bg0 p-t-23 p-b-140">
 		<div class="container">
 			<div class="p-b-10">
@@ -733,6 +736,7 @@
 				</div>
 			</div>
 
+			<!-- Tarjetas de Productos -->
 			<div class="row isotope-grid">
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item basket">
 					<!-- Block2 -->
@@ -748,7 +752,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Pelota de Basket Basica Meh
 								</a>
 
@@ -782,7 +786,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Pelota de Basket Hippie
 								</a>
 
@@ -801,20 +805,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 3 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item basket">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-03.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal3">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Pelota Basket Golden Full HD
 								</a>
 
@@ -833,20 +838,21 @@
 					</div>
 				</div>
 
+				<!-- producto 4 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item basket">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-04.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal4">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Basket T-shirt
 								</a>
 
@@ -865,20 +871,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 5 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item soccer">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-05.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal5">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Balon de Soccer basico
 								</a>
 
@@ -897,20 +904,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 6 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item soccer">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-06.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal6">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Balon de Soccer Pretty
 								</a>
 
@@ -929,20 +937,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 7 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item soccer shoes">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-07.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal7">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Guayos Escarlata Fafarachosos
 								</a>
 
@@ -961,20 +970,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 8 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item soccer">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-08.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal8">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Medias deportivas para soccer blancas
 								</a>
 
@@ -993,20 +1003,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 9 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item volley">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-09.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal9">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Pelota de Volley marca Molten
 								</a>
 
@@ -1025,20 +1036,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 10 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item volley">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-10.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal10">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Volley T-Shirt In Stripe
 								</a>
 
@@ -1057,20 +1069,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 11 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item volley">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-11.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal11">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Rodilleras de volleyball
 								</a>
 
@@ -1089,20 +1102,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 12 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item shoes">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-12.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal12">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Tennis para Volleyball
 								</a>
 
@@ -1121,20 +1135,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 13 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item volley">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-13.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal13">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									T-Shirt with volleyball
 								</a>
 
@@ -1153,20 +1168,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 14 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item volley">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-14.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal14">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Rodilleras negras de Volleyball
 								</a>
 
@@ -1185,20 +1201,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 15 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item shoes">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-15.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal15">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Tennis de Volleyball cool
 								</a>
 
@@ -1217,20 +1234,21 @@
 					</div>
 				</div>
 
+				<!-- Producto 16 -->
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item shoes">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-16.jpg" alt="IMG-PRODUCT">
 
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal16">
 								Quick View
 							</a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Otros tennis de Volleyball
 								</a>
 
@@ -1384,6 +1402,7 @@
 		</span>
 	</div>
 
+	<!--VENTANAS MODALES DE PRODUCTOS-->
 	<!-- Modal1 -->
 	<div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
 		<div class="overlay-modal1 js-hide-modal1"></div>
@@ -1504,7 +1523,7 @@
 	</div>
 
 	<!-- Modal2 -->
-	
+
 	<div class="wrap-modal1 js-modal2 p-t-60 p-b-20">
 		<div class="overlay-modal1 js-hide-modal2"></div>
 
@@ -1623,109 +1642,1928 @@
 		</div>
 	</div>
 
+	<!-- Modal3 -->
+
+	<div class="wrap-modal1 js-modal3 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal3"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal3">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-03.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-03.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-03.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Pelota Basket Golden Full HD
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$125.00
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal4 -->
+
+	<div class="wrap-modal1 js-modal4 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal4"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal4">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-04.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-04.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-04.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Basket T-shirt
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$40.00
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal5 -->
+
+	<div class="wrap-modal1 js-modal5 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal5"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal5">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-05.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-05.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-05.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Balon de Soccer basico
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$25.00
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal6 -->
+
+	<div class="wrap-modal1 js-modal6 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal6"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal6">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-06.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-06.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-06.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Balon de Soccer Pretty
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$120.00
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal7 -->
+
+	<div class="wrap-modal1 js-modal7 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal7"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal7">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-07.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-07.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-07.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Guayos Escarlata Fafarachosos
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$52.66
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal8 -->
+
+	<div class="wrap-modal1 js-modal8 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal8"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal8">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-08.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-08.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-08.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Medias deportivas para soccer blancas
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$20.00
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal9 -->
+
+	<div class="wrap-modal1 js-modal9 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal9"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal9">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-09.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-09.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-09.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Pelota de Volley marca Molten
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$55.00
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal10 -->
+
+	<div class="wrap-modal1 js-modal10 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal10"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal10">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-10.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-10.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-10.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Volley T-Shirt In Stripe
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$25.85
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal11 -->
+
+	<div class="wrap-modal1 js-modal11 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal11"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal11">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-11.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-11.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-11.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Rodilleras de volleyball
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$23.16
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal12 -->
+
+	<div class="wrap-modal1 js-modal12 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal12"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal12">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-12.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-12.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-12.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Tennis para Volleyball
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$63.15
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal13 -->
+
+	<div class="wrap-modal1 js-modal13 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal13"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal13">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-13.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-13.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-13.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								T-Shirt with volleyball
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$18.49
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal14 -->
+
+	<div class="wrap-modal1 js-modal14 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal14"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal14">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-14.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-14.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-14.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Rodilleras negras de Volleyball
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$24.79
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal15 -->
+
+	<div class="wrap-modal1 js-modal15 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal15"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal15">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-15.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-15.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-15.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Tennis de Volleyball cool
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$86.85
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal16 -->
+
+	<div class="wrap-modal1 js-modal16 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal16"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal16">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-3 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-16.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-16.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-16.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+
+									<!-- <div class="item-slick3" data-thumb="images/product-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/Product-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/product-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Tennis de Volleyball
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$69.64
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-minus"></i>
+												</div>
+
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fs-16 zmdi zmdi-plus"></i>
+												</div>
+											</div>
+
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+									<div class="flex-m bor9 p-r-10 m-r-11">
+										<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+											<i class="zmdi zmdi-favorite"></i>
+										</a>
+									</div>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+
+									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- VENTANAS MODALES DEL EQUIPO -->
+	<!-- ModalDani -->
+
+	<div class="wrap-modal1 js-modalDani p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modalDani"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modalDani">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-4 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+									<div class="wrap-pic-w pos-relative">
+									<img src="images/fotoDani.jpg" alt="IMG-PRODUCT">
+	
+										<i class="fa fa-expand"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-8 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-111 cl2 js-name-detail p-b-14">
+								Daniela Arias
+							</h4>
+
+							<span class="mtext-106 cl2">
+								Tecnico de desarrollo de Software del CIAF.
+							</span>
+
+							<p class="fs-18 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ModalJuan -->
+	<div class="wrap-modal1 js-modalJuan p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modalJuan"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modalJuan">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-4 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+									<div class="wrap-pic-w pos-relative">
+									<img src="images/fotoJuan.jpg" alt="IMG-PRODUCT">
+	
+										<i class="fa fa-expand"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-8 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-111 cl2 js-name-detail p-b-14">
+								Juan Eduardo Gonzales
+							</h4>
+
+							<span class="mtext-106 cl2">
+								Tecnico de desarrollo de Software del CIAF.
+							</span>
+
+							<p class="fs-18 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ModalAlejo -->
+	<div class="wrap-modal1 js-modalAlejo p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modalAlejo"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modalAlejo">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-4 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+									<div class="wrap-pic-w pos-relative">
+									<img src="images/fotoAlejo.jpg" alt="IMG-PRODUCT">
+	
+										<i class="fa fa-expand"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-8 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-111 cl2 js-name-detail p-b-14">
+								Alejandro Garay Moreno
+							</h4>
+
+							<span class="mtext-106 cl2">
+								"Tecnico" de desarrollo de Software del CIAF.
+							</span>
+
+							<p class="fs-18 cl3 p-t-23">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, laudantium qui quia doloribus, praesentium temporibus consequatur, eos nemo nobis alias libero quaerat veritatis? Cupiditate velit eos doloribus error? Magni, exercitationem?
+							</p>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
-			<!--===============================================================================================-->
-			<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-			<!--===============================================================================================-->
-			<script src="vendor/animsition/js/animsition.min.js"></script>
-			<!--===============================================================================================-->
-			<script src="vendor/bootstrap/js/popper.js"></script>
-			<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-			<!--===============================================================================================-->
-			<script src="vendor/select2/select2.min.js"></script>
-			<script>
-				$(".js-select2").each(function() {
-					$(this).select2({
-						minimumResultsForSearch: 20,
-						dropdownParent: $(this).next('.dropDownSelect2')
-					});
-				})
-			</script>
-			<!--===============================================================================================-->
-			<script src="vendor/daterangepicker/moment.min.js"></script>
-			<script src="vendor/daterangepicker/daterangepicker.js"></script>
-			<!--===============================================================================================-->
-			<script src="vendor/slick/slick.min.js"></script>
-			<script src="js/slick-custom.js"></script>
-			<!--===============================================================================================-->
-			<script src="vendor/parallax100/parallax100.js"></script>
-			<script>
-				$('.parallax100').parallax100();
-			</script>
-			<!--===============================================================================================-->
-			<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
-			<script>
-				$('.gallery-lb').each(function() { // the containers for all your galleries
-					$(this).magnificPopup({
-						delegate: 'a', // the selector for gallery item
-						type: 'image',
-						gallery: {
-							enabled: true
-						},
-						mainClass: 'mfp-fade'
-					});
-				});
-			</script>
-			<!--===============================================================================================-->
-			<script src="vendor/isotope/isotope.pkgd.min.js"></script>
-			<!--===============================================================================================-->
-			<script src="vendor/sweetalert/sweetalert.min.js"></script>
-			<script>
-				$('.js-addwish-b2').on('click', function(e) {
-					e.preventDefault();
-				});
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function() {
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+		})
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/slick/slick.min.js"></script>
+	<script src="js/slick-custom.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/parallax100/parallax100.js"></script>
+	<script>
+		$('.parallax100').parallax100();
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+	<script>
+		$('.gallery-lb').each(function() { // the containers for all your galleries
+			$(this).magnificPopup({
+				delegate: 'a', // the selector for gallery item
+				type: 'image',
+				gallery: {
+					enabled: true
+				},
+				mainClass: 'mfp-fade'
+			});
+		});
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/isotope/isotope.pkgd.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/sweetalert/sweetalert.min.js"></script>
+	<script>
+		$('.js-addwish-b2').on('click', function(e) {
+			e.preventDefault();
+		});
 
-				$('.js-addwish-b2').each(function() {
-					var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
-					$(this).on('click', function() {
-						swal(nameProduct, "is added to wishlist !", "success");
+		$('.js-addwish-b2').each(function() {
+			var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+			$(this).on('click', function() {
+				swal(nameProduct, "is added to wishlist !", "success");
 
-						$(this).addClass('js-addedwish-b2');
-						$(this).off('click');
-					});
-				});
+				$(this).addClass('js-addedwish-b2');
+				$(this).off('click');
+			});
+		});
 
-				$('.js-addwish-detail').each(function() {
-					var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+		$('.js-addwish-detail').each(function() {
+			var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
 
-					$(this).on('click', function() {
-						swal(nameProduct, "is added to wishlist !", "success");
+			$(this).on('click', function() {
+				swal(nameProduct, "is added to wishlist !", "success");
 
-						$(this).addClass('js-addedwish-detail');
-						$(this).off('click');
-					});
-				});
+				$(this).addClass('js-addedwish-detail');
+				$(this).off('click');
+			});
+		});
 
-				/*---------------------------------------------*/
+		/*---------------------------------------------*/
 
-				$('.js-addcart-detail').each(function() {
-					var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
-					$(this).on('click', function() {
-						swal(nameProduct, "is added to cart !", "success");
-					});
-				});
-			</script>
-			<!--===============================================================================================-->
-			<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-			<script>
-				$('.js-pscroll').each(function() {
-					$(this).css('position', 'relative');
-					$(this).css('overflow', 'hidden');
-					var ps = new PerfectScrollbar(this, {
-						wheelSpeed: 1,
-						scrollingThreshold: 1000,
-						wheelPropagation: false,
-					});
+		$('.js-addcart-detail').each(function() {
+			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+			$(this).on('click', function() {
+				swal(nameProduct, "is added to cart !", "success");
+			});
+		});
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script>
+		$('.js-pscroll').each(function() {
+			$(this).css('position', 'relative');
+			$(this).css('overflow', 'hidden');
+			var ps = new PerfectScrollbar(this, {
+				wheelSpeed: 1,
+				scrollingThreshold: 1000,
+				wheelPropagation: false,
+			});
 
-					$(window).on('resize', function() {
-						ps.update();
-					})
-				});
-			</script>
-			<!--===============================================================================================-->
-			<script src="js/main.js"></script>
+			$(window).on('resize', function() {
+				ps.update();
+			})
+		});
+	</script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
 
 </body>
 

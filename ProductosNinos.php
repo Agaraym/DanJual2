@@ -11,10 +11,12 @@
 <!-- <body>
   <header id="header"> -->
   <?php include("header.php"); ?>
-    <h1>PRODUCTOS NIÑOS</h1>
+
     <!-- <img class="carrito" src="imagenes/icon-cart.svg" alt="carrito compras"> -->
   </header>  
-  <div class="contenedor" id="contenedor ">
+ 
+  <div class="p-t-150 bgblack"><h1 class="cl0">PRODUCTOS NIÑOS</h1> </div> 
+  <div class="contenedor p-t-20 p-b-10" id="contenedor ">
     <div>
         <img src="./imagenes/niños/33029634673340a5b0ffae9400f74d7a_9366.webp" alt="guayos">
         <div class="informacion">

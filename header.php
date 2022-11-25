@@ -82,21 +82,21 @@
 								<a href="product.html">Categorias</a>
 								<ul class="sub-menu">
 									<li><a href="productosHombres.php">Hombres</a></li>
-									<li><a href="productosMujeres.php">Mujeres</a></li>
+									<li><a href="productosMujer.php">Mujeres</a></li>
 									<li><a href="productosNinos.php">Niños</a></li>
 								</ul>
 							</li>
 
 							<li>
-								<a href="about.html">Sobre nosotros</a>
+								<a href="#">Sobre nosotros</a>
 								<ul class="sub-menu">
-									<li><a href="index.php">Daniela Arias</a></li>
-									<li><a href="home-02.html">Juan Eduardo Gonzales</a></li>
-									<li><a href="#" id="Alejo">Alejandro Garay</a></li>
+									<li><a href="#" class="js-show-modalDani">Daniela Arias</a></li>
+									<li><a href="#" class="js-show-modalJuan">Juan Eduardo Gonzales</a></li>
+									<li><a href="#" class="js-show-modalAlejo">Alejandro Garay</a></li>
 								</ul>
 							</li>
 							<li>
-								<a href="login.php">Login</a>
+								<a href="bd_tienda/Login.php" target="_blank">Login</a>
 							</li>
 
 						</ul>
@@ -165,30 +165,37 @@
 
 			<ul class="main-menu-m">
 				<li>
-					<a href="index.php">Home</a>
+					<a href="index.">Home</a>
 				</li>
 
 				<li>
-					<a href="product.html">Categorias</a>
-					<ul class="sub-menu">
+					<a href="#">Categorias</a>
+					<ul class="sub-menu-m">
 						<li><a href="productosHombres.php">Hombres</a></li>
 						<li><a href="productosMujeres.php">Mujeres</a></li>
 						<li><a href="productosNinos.php">Niños</a></li>
 					</ul>
+					<span class="arrow-main-menu-m">
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+					</span>
 				</li>
 
 				<li>
-					<a href="about.html">Sobre nosotros</a>
-					<ul class="sub-menu">
-						<li><a href="index.php">Daniela Arias</a></li>
-						<li><a href="home-02.html">Juan Eduardo Gonzales</a></li>
-						<li><a href="#" id="Alejo">Alejandro Garay</a></li>
+					<a href="#">Sobre Nosotros</a>
+					<ul class="sub-menu-m">
+						<li><a href="#" class="js-show-modalDani">Daniela Arias</a></li>
+						<li><a href="#" class="js-show-modalJuan">Juan Eduardo Gonzales</a></li>
+						<li><a href="#" class="js-show-modalAlejo">Alejandro Garay</a></li>
 					</ul>
-				</li>
-				<li>
-					<a href="login.php">Login</a>
+					<span class="arrow-main-menu-m">
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+					</span>
+		 		</li>
+				 <li>
+					<a href="bd_tienda/Login.php" target="_blank">Login</a>
 				</li>
 			</ul>
+
 		</div>
 
 		<!-- Modal Search -->

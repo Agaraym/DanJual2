@@ -1,0 +1,286 @@
+/* Autores ADJ */
+
+@font-face{
+font-family: "Titulo";
+src: url(Fuentes/AdrenalinesDemoRegular.woff);
+}
+
+body{
+font-family: "Titulo";
+size: 10px; 
+
+}
+.Login h4{
+font-family: "Titulo";
+font-size: -5px;
+height: bold;
+color: white;
+margin-right: 45%;
+padding-top: -10%;
+padding-bottom: -10%;
+padding-left: 46%;
+}
+
+.img-responisive{
+display: block;
+max-width: 100%;
+height: auto;
+
+
+}
+img{
+vertical-align: middle;
+
+}
+img{
+   
+border: 0;
+
+
+
+}
+.login-logo{
+
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+    margin-left: 45%;
+    padding-top: -7%;
+}
+.login-logo img{
+margin-top: 5%;
+width: 100px;
+height:100px;
+background-color: #fff;
+border-radius: 10%;
+border-color: white solid black;
+border-radius: 141px 141px 141px 141px;
+-webkit-border-radius: 141px 141px 141px 141px;
+-moz-border-radius: 141px 141px 141px 141px;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.login-box{
+box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.75);
+opacity: 0.8;
+background: black;
+width: 35%;
+height: 50%;
+padding: 20px;
+border-top: 0px;
+color:#666;
+margin: 0;
+margin-left: 31%;
+text-align: center;
+padding: 0 20px 20px 20px;
+
+
+
+}
+.p{
+display: block;
+margin-top: 5%;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+.has-feedback form-control {
+    padding-right: 42.5px;
+}
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #d2d6de;
+    border-color:5px solid skyblue;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px; 
+}
+.form-control {
+    display: block;
+    width: 90%;
+    height: 34px;
+    padding: 6px 14px;
+    padding-top: -10%;
+    margin-left: 1%;
+    margin-top: 7%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    box-shadow: 10px 10px 5px 0px rgba(36,22,201,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(36,22,201,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(36,22,201,0.75);
+}
+
+
+.btn-flat {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-width: 1px;
+}
+.btn-primary{
+
+background-attachment: fixed;
+background-color: #3c8dbc;
+border-color: #367fa9;
+width: 20%;
+height: 10%;
+}
+.btn-secondary{
+  background-attachment: fixed;
+  background-color: #3c8dbc;
+  border-color: #367fa9;
+  width: 20%;
+  height: 10%;  
+}
+.btn {
+    display: inline-block;
+    margin-top: 5%;
+    padding: 6px 12px;
+    padding-bottom: 5%;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #4682B4;
+}
+button{
+    padding-top: 5%;
+    font-family: inherit;
+    font-size: inherit;
+    color: #fff;
+    height:bold;
+    line-height: inherit;
+    width:20%;
+    height: 10%;
+    
+
+}
+.btn-primary :focus{
+ color: #ffff;
+
+
+}
+.btn-primary :visited{
+color:gold;
+
+
+
+}
+.button {
+    text-transform: none;
+}
+.button{
+overflow: visible;
+
+}
+.btn-primary :focus-visible{
+
+color: blue;
+
+}
+.btn-secondary :focus{
+color: #fff;
+
+
+}
+
+@media screen {
+    body{
+    font-size: 13px;
+
+
+    } 
+}
+
+@media screen {
+body {
+scroll-behavior: smooth;
+
+
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body { line-height: 1.4 }
+}
+
+
+}
+.image{
+ animation-duration: 3s;
+ animation-name: slider;
+
+
+
+
+}
+@keyframes slider{
+ from {
+ margin-left: 100%;
+ width: 300%;
+
+ }
+ to{
+    margin-left:0;
+    width: 100%;
+
+ }
+
+}
+
+/*Nota este es el diseño para la funcion de msg de error/*
+---------------------------------------------------------
+---------------------------------------------------------
+/*
+.alert-danger{
+background-color: red;
+
+
+
+}
+.alert-danger{
+border-color: #fff  !important;
+
+}
+.alert-danger{
+border-radius: 3px;
+
+}
+.alert-danger {
+    font-family: inherit;
+    color: #ffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}*/

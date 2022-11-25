@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../Nuevo backup/Ingenieria de Software IV/Programacion y servicios web/Cajas/Css"
+		},
+		{
+			"path": "../../Nuevo backup/Ingenieria de Software IV/Programacion y servicios web/Cajas/Fuentes"
+		},
+		{
+			"path": "../../Nuevo backup/Ingenieria de Software IV/Programacion y servicios web/Cajas/Imagenes"
+		},
+		{
+			"path": "../../Nuevo backup/Ingenieria de Software IV/Programacion y servicios web/Cajas"
+		},
+		{
+			"path": "../../Nuevo backup/Ingenieria de Software IV/Programacion y servicios web/Practica/Diaplay"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Cajas",
+		"git.ignoreLimitWarning": true
+	}
+}

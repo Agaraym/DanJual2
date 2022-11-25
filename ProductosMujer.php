@@ -11,10 +11,13 @@
 <!-- <body>
   <header id="header"> -->
   <?php include("header.php"); ?>
-    <h1>PRODUCTOS MUJER</h1>
+ 
     <!-- <img class="carrito" src="./image/icon-cart.rar" alt="carrito compras"> -->
-  </header>  
-  <div class="contenedor" id="contenedor ">
+  </header>
+  
+  <div class="p-t-150 bgblack"><h1 class="cl0">PRODUCTOS MUJER</h1> </div> 
+  <div class="contenedor p-t-20" id="contenedor ">
+
     <div>
         <img src="./imagenes/mujer/adidas-performance-1395-2463971-1-product.webp" alt="zapato">
         <div class="informacion">

@@ -734,7 +734,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   align-items: center;
   height: 70px;
   background-color: #fff;
-  padding: 15px;
+  padding: 1px;
   display: none;
 
   box-shadow: 0 0px 3px 0px rgba(0,0,0,0.2);
@@ -2015,6 +2015,76 @@ input.num-product::-webkit-inner-spin-button {
   visibility: visible;
   opacity: 1;
 }
+.show-modal3 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal4 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal5 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal6 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal7 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal8 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal9 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal10 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal11 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal12 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal13 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal14 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal15 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modal16 {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modalDani {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modalJuan {
+  visibility: visible;
+  opacity: 1;
+}
+.show-modalAlejo {
+  visibility: visible;
+  opacity: 1;
+}
+
+
 
 /*//////////////////////////////////////////////////////////////////
 [ Table Shopping Cart ]*/

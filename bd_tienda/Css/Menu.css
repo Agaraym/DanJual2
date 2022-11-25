@@ -1,0 +1,92 @@
+@font-face{
+ font-family: "titulos";
+ src: url(Fuentes/AdrenalinesDemoRegular.woff);
+
+
+}
+    body{
+    font-family: "Titulo";
+    size: 10px; 
+    
+    }
+    .titulo h3{
+     font-family: "titulos";
+      color: yellow;
+      text-align: center;
+      padding-top: 8%;
+      margin-left: -2%;
+    
+
+
+
+    }
+    .item-box{
+        background: #fff;
+        width: 35%;
+        height: 50%;
+        padding: 15px;
+        border-top: 0px;
+        color:#666;
+        margin: 0;
+        margin-left: 31%;
+        text-align: center;
+        padding: 0 20px 20px 20px;
+        padding-top: 5%;
+
+
+
+
+    }
+    
+    
+    .btn-lg {
+     padding-top: 15%;
+     padding-bottom: -5%;
+     margin-left: 160%;
+     margin-bottom: 10%;
+     margin-top: 5%;
+     margin-left: 145%;
+     
+
+
+    }
+    
+
+    @media screen {
+        body{
+        font-size: 13px;
+        
+    
+        } 
+    }
+    
+    @media screen {
+    body {
+    scroll-behavior: smooth;
+    
+    
+    }
+
+
+    @media screen {
+        body {
+        scroll-behavior: smooth;
+        
+        
+        }
+        @media only screen
+          and (min-device-width: 320px)
+          and (max-device-width: 480px)
+          and (-webkit-min-device-pixel-ratio: 2) {
+            body { line-height: 1.4 }
+        }
+        
+        
+        }
+}
+   
+
+
+
+
+    
