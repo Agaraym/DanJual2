@@ -110,7 +110,7 @@
 <div class="login-box" style="margin-left: 100px; margin-right:100px;">
 <p class="text">LOGIN</p>
 
-<form action=""  method="post" enctype="multipart/form-data">
+<form action="validar_login.php"  method="post" enctype="multipart/form-data">
 
     <div class="form-group has-feedback">
      <input type="text" class="form-control" placeholder="Usuario" name="nombre_usuario" required>
@@ -128,7 +128,7 @@
     <table>
         <tr>
     <td>
-    <button type="submit" class="btn btn-primary btn-block btn-flat" onclick="">Ingresar</button>
+    <button type="submit" class="btn btn-primary btn-block btn-flat" onclick="location.href="Menu.php">Ingresar</button>
     </td>
      <td>
     <button type="reset" class="btn btn-secondary btn-block btn-flat">Borrar</button>
