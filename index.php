@@ -186,16 +186,27 @@
 				</li>
 
 				<li>
-					<a href="product.html">Categorias</a>
+					<a href="#">Categorias</a>
+					<ul class="sub-menu-m">
+						<li><a href="productosHombres.php">Hombres</a></li>
+						<li><a href="productosMujeres.php">Mujeres</a></li>
+						<li><a href="productosNinos.php">Niños</a></li>
+					</ul>
+					<span class="arrow-main-menu-m">
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+					</span>
 				</li>
 
 				<li>
 					<a href="about.html">Sobre Nosotros</a>
-					<ul class="sub-menu">
+					<ul class="sub-menu-m">
 						<li><a href="#">Daniela Arias</a></li>
 						<li><a href="#">Juan Eduardo Gonzales</a></li>
 						<li><a href="#" id="Alejo">Alejandro Garay</a></li>
 					</ul>
+					<span class="arrow-main-menu-m">
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+					</span>
 		 		</li>
 				 <li>
 					<a href="login.php">Login</a>
@@ -398,14 +409,14 @@
 					<div class="block1 wrap-pic-w">
 						<img src="images/banner-01.jpg" alt="IMG-BANNER">
 
-						<a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+						<a href="ProductosMujer.php" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
 							<div class="block1-txt-child1 flex-col-l">
 								<span class="block1-name ltext-102 trans-04 p-b-8 p-lr-200">
-									Women
+									Mujeres
 								</span>
 
 								<span class="block1-info stext-102 trans-04 cl2 p-lr-210">
-									Spring 2018
+									Spring 2022
 								</span>
 							</div>
 
@@ -423,7 +434,7 @@
 					<div class="block1 wrap-pic-w">
 						<img src="images/banner-02.jpg" alt="IMG-BANNER">
 
-						<a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+						<a href="ProductosHombres.php" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
 							<div class="block1-txt-child1 flex-col-l">
 								<span class="block1-name ltext-102 trans-04 p-b-8">
 									Hombres
@@ -448,13 +459,13 @@
 					<div class="block1 wrap-pic-w">
 						<img src="images/banner-03.jpg" alt="IMG-BANNER">
 
-						<a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+						<a href="ProductosNinos.php" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
 							<div class="block1-txt-child1 flex-col-l">
 								<span class="block1-name ltext-102 trans-04 p-b-8">
 									Niños
 								</span>
 
-								<span class="block1-info stext-102 trans-04">
+								<span class="block1-info stext-102 trans-04 cl0">
 									Tendencias
 								</span>
 							</div>
